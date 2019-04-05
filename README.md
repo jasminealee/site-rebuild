@@ -26,9 +26,23 @@
 
 
 ## Specifications
+
+(Current Working Functionality)
+
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
-|User inputs movie title | Endga||
+|User inputs movie title and their personal review of the movie, then clicks "Submit Review" before information posts to the webpage" | Endgame; Great movie!; click| Endgame; Great movie! |
+
+(Future Functionality)
+
+| Behavior | Input | Output |
+|----------|:-----:|:------:|
+|User opens browser and
+|User has the option to sign in
+|User inputs movie in search bar. | Aladdin | The program returns a list of links and their respective description along with a picture of the = movie of different Aladdin movies the user can choose the link they're interested in. | click link | Webpage redirects user to the clicked movie review page. |
+|
+
+
 
 ## Support and contact details
 If you have any questions or concerns please contact me at: [jasmine.al1722@gmail.com](mailto:jasmine.al1722@gmail.com)
