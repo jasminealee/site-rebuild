@@ -12,4 +12,3 @@ describe('site-rebuild App', () => {
     expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
- 
