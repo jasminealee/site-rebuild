@@ -3,7 +3,9 @@ body {
   background-color: skyblue;
 }
 
-
+.well {
+  border-left: 50px;
+}
 #movie {
   border-left: 50px;
 }
@@ -12,6 +14,6 @@ body {
   padding-top: 100px;
 }
 
-/* #search {
+#search {
   float: right;
-} */
+}
