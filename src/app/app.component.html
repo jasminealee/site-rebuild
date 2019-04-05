@@ -15,12 +15,17 @@
     <button class="btn btn-outline-info btn-md" (click)="addReview(title.value, thoughts.value)">Submit Review</button>
   </div>
   <div id="reviews">
-  <h1>Current Reviews:</h1>
-  <div class="well">
-  <div *ngFor="let singleReview of reviews">
-    <h2>{{singleReview.title}}</h2>
-  <ul>
-    <h3></h3><li *ngFor="let singleThoughts of singleReview.thoughts">{{singleThoughts}}<button (click)="editReview()">Edit!</button></li>
-  </ul>
+    <h1>Current Reviews:</h1>
+    <div class="well">
+      <div *ngFor="let singleReview of reviews">
+        <h2>{{singleReview.title}}</h2>
+        <ul>
+          <h3></h3><li *ngFor="let singleThoughts of singleReview.thoughts">{{singleThoughts}}<button (click)="editReview()">Edit!</button></li>
+        </ul>
+      </div>
+      <form>
+        <input [(ngModel)]="userName" type="text" name="user">
+    </form>
+    <h1>{{userName}}</h1>
   </div>
 </div>

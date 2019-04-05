@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 import { Review } from './models/review';
+import { FormsModule } from '@angular/forms';
+ @NgModule([
+   imports: [
+     FormsModule
+   ],
+ ])
 
 @Component({
   selector: 'app-root',
