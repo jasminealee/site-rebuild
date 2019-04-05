@@ -25,9 +25,11 @@
 * Angular
 
 
-##Specs
+## Specifications
+| Behavior | Input | Output |
+|----------|:-----:|:------:|
+|User inputs movie title | Endga||
 
-|:---:|---|---|
 ## Support and contact details
 If you have any questions or concerns please contact me at: [jasmine.al1722@gmail.com](mailto:jasmine.al1722@gmail.com)
 

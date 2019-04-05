@@ -1,15 +1,5 @@
 import { Component } from '@angular/core';
 import { Review } from './models/review';
-import { FormsModule } from '@angular/forms';
-
- @NgModule([
-   declarations: [
-   Review ],
-   imports: [
-     FormsModule
-   ],
- ])
-
 
 
 @Component({
@@ -20,7 +10,6 @@ import { FormsModule } from '@angular/forms';
 
 
 export class AppComponent {
-  export class AppModule[]
   today: string = 'Today';
   currentTime = new Date();
   month: number = this.currentTime.getMonth() + 1;

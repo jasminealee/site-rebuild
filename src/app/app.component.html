@@ -9,7 +9,7 @@
     <input #title>
     <br>
     <label for="thoughts">Review:</label>
-    <input type="text" [(ngModel)]=#thoughts>
+    <input #thoughts>
     <label for="name">Name:</label>
     <input #name>
     <button class="btn btn-outline-info btn-md" (click)="addReview(title.value, thoughts.value)">Submit Review</button>
