@@ -24,7 +24,7 @@
 * Karma
 * Angular
 
-
+ 
 ##Specs
 
 |:---:|---|---|
