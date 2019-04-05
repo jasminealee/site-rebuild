@@ -37,8 +37,8 @@
 
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
-|User opens browser and
-|User has the option to sign in
+|User signs in by clicking on the sign in hyperlink and then inputting their credentials (email). Once credentials are inputted, they click "enter". | Credentials entered, followed by "click" | If credentials entered are correct, page refreshes. If credentials are not correct, an popup message appears. Signinng in is not required to access the website.| 
+|User inputs information into the chat at the bottom of the pages.
 |User inputs movie in search bar. | Aladdin | The program returns a list of links and their respective description along with a picture of the = movie of different Aladdin movies the user can choose the link they're interested in. | click link | Webpage redirects user to the clicked movie review page. |
 |
 
