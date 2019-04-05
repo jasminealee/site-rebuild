@@ -31,7 +31,10 @@
 
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
-|User inputs movie title and their personal review of the movie, then clicks "Submit Review" before information posts to the webpage" | Endgame; Great movie!; click| Endgame; Great movie! |
+|User inputs movie title and their personal review of the movie, then clicks "Submit Review" before information posts to the webpage" | Endgame; Great movie!; "click"| Endgame; Great movie! |
+|User clicks "Edit" next to any Review comment. | "click" | 
+
+
 
 (Future Functionality)
 

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Review } from './models/review';
+import { AppData } from './AppData';
 
 
 @Component({
