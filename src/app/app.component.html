@@ -6,7 +6,7 @@
 <body>
   <div>
     <label for="title">Movie Title</label>
-    <input #title>
+    <input type="radio"[(ngModel)]=#title>
     <br>
     <label for="thoughts">Review:</label>
     <input #thoughts>
@@ -23,9 +23,6 @@
           <h3></h3><li *ngFor="let singleThoughts of singleReview.thoughts">{{singleThoughts}}<button (click)="editReview()">Edit!</button></li>
         </ul>
       </div>
-      <form>
-        <input [(ngModel)]="userName" type="text" name="user">
-    </form>
-    <h1>{{userName}}</h1>
+
   </div>
 </div>
