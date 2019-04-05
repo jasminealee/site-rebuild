@@ -8,8 +8,17 @@
     <label for="Title">Movie Title</label>
     <input #title>
     <br>
-    <label for="review">Review:</label>
-    <input #review>
-    <button class="btn btn-outline-info btn-md" (click)="addReview(title.value, review.value)">Submit Review</button>
+    <label for="thoughts">Review:</label>
+    <input #thoughts>
+    <button class="btn btn-outline-info btn-md" (click)="addReview(title.value, thoughts.value)">Submit Review</button>
   </div>
-</body>
+  <div id="reviews">
+  <h1>Current Reviews:</h1>
+  <div class="well">
+  <div *ngFor="let singleReview of reviews">
+  <h2>{{singleReview.title}}</h2>
+  <ul>
+    <h3>Review</h3><li *ngFor="let review of singleReview of singleTitle.Review">{{singleReview}}</li>
+  </ul>
+  </div>
+</div>
