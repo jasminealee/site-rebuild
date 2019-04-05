@@ -32,7 +32,7 @@
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
 |User inputs movie title and their personal review of the movie, then clicks "Submit Review" before information posts to the webpage" | Endgame; Great movie!; "click"| Endgame; Great movie! |
-|User clicks "Edit" next to any Review comment. | "click" | 
+|User clicks "Edit" next to any Review comment. | "click" | Alert pops up stating "edit". |
 
 
 
@@ -40,9 +40,10 @@
 
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
-|User signs in by clicking on the sign in hyperlink and then inputting their credentials (email). Once credentials are inputted, they click "enter". | Credentials entered, followed by "click" | If credentials entered are correct, page refreshes. If credentials are not correct, an popup message appears. Signing in is not required to access the website.|
+|User signs in by clicking on the sign in link and then inputting their credentials (email). Once credentials are inputted, they click "enter". | "Click", credentials entered, followed by "click" | If credentials entered are correct, page refreshes. If credentials are not correct, an popup message appears.|
 |User inputs information into the chat at the bottom of the pages. | hello | hello is outputted in the chat to everyone on that specific page in the chat |
 |User inputs movie in search bar. | Aladdin | The program returns a list of links and their respective description along with a picture of the = movie of different Aladdin movies the user can choose the link they're interested in. | click link | Webpage redirects user to the clicked movie review page. |
+|User clicks on one of the links on the side of the webpage. | "click | Page redirects to that page. |
 
 
 
