@@ -13,9 +13,9 @@
     <label for="name">Name:</label>
     <input #name>
     <button class="btn btn-outline-info btn-md" (click)="addReview(title.value, thoughts.value)">Submit Review</button>
-    <form>
+    <!-- <form>
       <input [(ngModel)] ="titleName" type="text" name="title">
-    </form>
+    </form> -->
 
   </div>
   <div id="reviews">
@@ -27,7 +27,5 @@
           <h3></h3><li *ngFor="let singleThoughts of singleReview.thoughts">{{singleThoughts}}<button (click)="editReview()">Edit!</button></li>
         </ul>
       </div>
-
-
   </div>
 </div>

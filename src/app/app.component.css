@@ -2,7 +2,7 @@ background {
   color: skyblue;
 }
 
-/* #movie {
+* #movie {
   border-left: 50px;
 }
 
@@ -12,5 +12,4 @@ background {
 
 #search {
   float: left;
-} */
-  
+} 
