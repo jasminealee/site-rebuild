@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
    ],
  ])
 
- export class AppModule{}
+
 
 @Component({
   selector: 'app-root',
@@ -20,6 +20,7 @@ import { FormsModule } from '@angular/forms';
 
 
 export class AppComponent {
+  export class AppModule[]
   today: string = 'Today';
   currentTime = new Date();
   month: number = this.currentTime.getMonth() + 1;
