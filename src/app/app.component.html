@@ -5,11 +5,11 @@
 <h1>{{today}} {{month}}/{{day}}/{{year}}</h1>
 <body>
   <div>
-    <label for="movie">Movie</label>
-    <input #movie>
+    <label for="Title">Movie Title</label>
+    <input #title>
     <br>
     <label for="review">Review:</label>
     <input #review>
-    <button class="btn btn-outline-info btn-md" (click)="addReview(moive.value, review.value)">Submit Review</button>
+    <button class="btn btn-outline-info btn-md" (click)="addReview(title.value, review.value)">Submit Review</button>
   </div>
 </body>

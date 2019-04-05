@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Review } from './models/review';
 
 @Component({
   selector: 'app-root',
@@ -14,13 +15,13 @@ export class AppComponent {
   day: number = this.currentTime.getDate();
   year: number = this.currentTime.getFullYear();
 
-  newMovieReview: Review;
+  // newMovieReview: Review;
   reviews: Review[] = [
     new Review('Endgame', ['the best movie ever!'])
-  ];
-
-  addReview(newTitle: string, newReview: string) {
-    this.newMovieReview =new Movie(newTitle, newReview);
-    this.reviews.push(this.newMovieReview);
-  }
+  ]
+  //
+  // addReview(newTitle: string, newReview: string) {
+  //   this.newMovieReview =new Movie(newTitle, newReview);
+  //   this.reviews.push(this.newMovieReview);
+  // }
 }
