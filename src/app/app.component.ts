@@ -16,10 +16,10 @@ export class AppComponent {
 
   newMovieReview: Review;
   reviews: Review[] = [
-    new Review('Endgame',)
+    new Review('Endgame', ['the best movie ever!'])
   ];
+
   addReview(newTitle: string, newReview: string) {
-    const newReviewArray = newReview.split(', ');
     this.newMovieReview =new Movie(newTitle, newReview);
     this.reviews.push(this.newMovieReview);
   }
