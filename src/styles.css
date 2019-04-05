@@ -2,3 +2,16 @@
 body {
   background-color: skyblue;
 }
+
+
+#movie {
+  border-left: 50px;
+}
+
+#review {
+  padding-top: 100px;
+}
+
+#search {
+  float: right;
+}
