@@ -3,3 +3,13 @@
   title placeholder
 </h1>
 <h1>{{today}} {{month}}/{{day}}/{{year}}</h1>
+<body>
+  <div>
+    <label for="Movie">Movie</label>
+    <input #movie>
+    <br>
+    <label for="review">Review:</label>
+    <input #review>
+    <button class="btn btn-outline-info btn-md" (click)="addWritttenReview(moive.valie, review.value)">Submit Review</button>
+  </div>
+</body>
