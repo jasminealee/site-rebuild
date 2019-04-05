@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background-color: skyblue;
+  /* background-image: url('https://images.app.goo.gl/7DT8vXuRnaNUQB3U8');
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .well {
@@ -14,6 +17,6 @@ body {
   padding-top: 100px;
 }
 
-#search {
+/* #search {
   float: right;
-}
+} */

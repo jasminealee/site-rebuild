@@ -1,6 +1,9 @@
 background {
   color: skyblue;
-  background-image: https://images.app.goo.gl/7DT8vXuRnaNUQB3U8;
+  /* background-image: url('https://images.app.goo.gl/7DT8vXuRnaNUQB3U8');
+  background-repeat: no-repeat;
+  background-size: cover; */
+
 }
 
 #movie {
@@ -11,6 +14,6 @@ background {
   text-align: center;
 }
 
-#search {
+/* #search {
   float: left;
-}
+} */
