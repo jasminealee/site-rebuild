@@ -1,15 +1,16 @@
 background {
   color: skyblue;
+  background-image: https://images.app.goo.gl/7DT8vXuRnaNUQB3U8;
 }
 
-* #movie {
-  border-left: 50px;
+#movie {
+  text-align: center;
 }
 
 #review {
-  border-left: 50px;
+  text-align: center;
 }
 
 #search {
   float: left;
-} 
+}
