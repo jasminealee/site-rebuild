@@ -20,7 +20,7 @@
   <div *ngFor="let singleReview of reviews">
     <h2>{{singleReview.title}}</h2>
   <ul>
-    <h3></h3><li *ngFor="let singleThoughts of singleReview.thoughts">{{singleThoughts}}</li>
+    <h3></h3><li *ngFor="let singleThoughts of singleReview.thoughts">{{singleThoughts}}<button (click)="editReview()">Edit!</button></li>
   </ul>
   </div>
 </div>

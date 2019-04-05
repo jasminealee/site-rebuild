@@ -18,10 +18,14 @@ export class AppComponent {
   newMovieReview: Review;
   reviews: Review[] = [
     new Review('Endgame', ['the best movie ever!'])
-  ]
-
-  addReview(newTitle: string, newReview: string) {
-    this.newMovieReview =new Review(newTitle, newReview);
+  ];
+  addReview(newTitle: string, newThoughts: string) {
+    const newThoughtsArray = newThoughts.split(', ')
+    this.newMovieReview =new Review(newTitle, newThoughtsArray);
     this.reviews.push(this.newMovieReview);
+  }
+
+  editReview() {
+    alert("Edit");
   }
 }
