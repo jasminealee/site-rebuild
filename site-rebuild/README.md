@@ -13,6 +13,20 @@
 ## Known Bugs
 
 
+## Built With
+
+* Terminal
+* Atom
+* Git
+* Node.js
+* npm
+* Jasmine
+* Karma
+* Angular
+
+
+##Specs
+
 ## Support and contact details
 If you have any questions or concerns please contact me at: [jasmine.al1722@gmail.com](mailto:jasmine.al1722@gmail.com)
 
